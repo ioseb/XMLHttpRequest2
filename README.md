@@ -7,7 +7,7 @@ XMLHttpRequest2 is a node.js module targeting [XMLHttpRequest Level 2][1] specif
 ##Usage Example
 
 ```
-var XMLHttpRequest = new require("./xmlhttprequest2").XMLHttpRequest2;
+var XMLHttpRequest = require("./xmlhttprequest2").XMLHttpRequest2;
 
 var xhr = new XMLHttpRequest();
 var url = "https://api.github.com/users/ioseb/gists";
